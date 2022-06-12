@@ -1,0 +1,41 @@
+.bar{
+    background-color: #cec6ce;
+    margin: -10px ;
+    padding-bottom: 6rem;
+    margin-bottom: 30px;
+}
+
+.nav-container {
+    margin-left: 135px;
+    margin-right: 130px;
+    display: flex;
+}
+
+.icon{
+    margin: 35px 10px 60px auto;
+    background-color: #5d405c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filter{
+    margin: 2px 10px 2px 2px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #5d405c;
+}
+
+.subtitle{
+    font-style: normal;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}

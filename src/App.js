@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Barchart from "./Barchart/barchart";
+import Scatter from "./Scatterchart/scatter";
+import Navbar from "./NAVBAR/navbar";
+import "./app.css"
 
-function App() {
+
+const Dashboard = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="chartContainer">
+        <div className="chart-shadow">
+          <span className="chart-title">Barras <i className="info fas fa-info-circle"></i></span> 
+          <Barchart />
+        </div>
+        <div className="chart-shadow">
+        <span className="chart-title"> Scatter <i className="info fas fa-info-circle"></i></span>
+        <Scatter />
+        </div>
+      </div>
+    
+    
+    </>
   );
 }
 
-export default App;
+export default Dashboard;
