@@ -1,7 +1,6 @@
 import Barchart from "./Barchart/barchart";
 import Scatter from "./Scatterchart/scatter";
 import Navbar from "./NAVBAR/navbar";
-import "./app.css"
 
 
 const Dashboard = () => {
